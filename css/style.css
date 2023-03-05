@@ -1,0 +1,51 @@
+body{
+   min-height: 100%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   }
+   
+   .wrapper{
+      background-image: url(../img/bg.png);
+   }
+   .sapper{
+   width: 556px;
+   height: 640px;
+
+   }
+   .field__info{
+      display: flex;
+      justify-content: space-between;
+      margin: 25px 31px  0 31px ;
+   }
+   .field__info button{
+      height: 53px;
+      width: 53px;
+      border: 0;
+      border-radius: 0;
+      background-image: url(../img/smile.png);
+   }
+.playing__field{
+   display: grid;
+grid-template-columns: 31px 31px 31px 31px 31px 31px 31px 31px 31px 31px 31px 31px 31px 31px 31px 31px;
+grid-template-rows: 31px 31px 31px 31px 31px 31px 31px 31px 31px 31px 31px 31px 31px 31px 31px 31px;
+margin-left: 27px;
+margin-top: 32px
+}
+.field__item{
+   width: 31px;
+   height: 31px;
+border: 0.5px solid #7b7b7b;
+border-radius: 0;
+}
+.field__item button{
+   border: 0;
+   border-radius: 0;
+   width: 31px;
+   height: 31px;
+   background-image: url(../img/icons/field__item.png);  
+}
+.field__item button:active{
+   background:  0;
+}
